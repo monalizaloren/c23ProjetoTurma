@@ -19,9 +19,7 @@ function setup(){
     world = engine.world;
 
     //crie corpos planos e blocos
-    var plane_options={
-      isStatic: true
-    }
+ //passo 3
 
     plane = Bodies.rectangle(600,height,1200,20,plane_options);
     World.add(world,plane);
@@ -53,8 +51,7 @@ function setup(){
       isStatic:true
     };
 
-    rotator1 = Bodies.rectangle(250,200,150,20,rotator_options);
-    World.add(world,rotator1);
+  //passo 5
 
     rotator2 = Bodies.rectangle(250,200,150,20,rotator_options);
     World.add(world,rotator2);
